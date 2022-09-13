@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- * Main - Entry point
+ * main - Entry point
  *
  * Discription: A script that prints
  *
  * Return: Always 0 (its success)
  */
+
 
 int main(void)
 {
