@@ -3,7 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - print if number is positive or negative 
+ * main - Print positive or negative number
+ *
+ * Discription : To check number
  *
  * Return : Always (successful)
  */
@@ -11,6 +13,7 @@
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
