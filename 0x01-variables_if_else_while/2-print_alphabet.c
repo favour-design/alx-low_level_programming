@@ -17,13 +17,16 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	while (zh < 'z')
-	
-		putchar(zh);
-		++zh;
-	
+	while (zh<='z')
+	putchar(zh);
+	++zh;
 	putchar ('\n');
 	return (0);
+
 }
+
+
+
+
+
 
